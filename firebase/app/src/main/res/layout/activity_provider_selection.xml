@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="#EEEEF0"
+  android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="@dimen/_100sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/app_name"
+            android:textStyle="bold|italic"
+            android:textSize="@dimen/_50sdp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="@dimen/_10sdp"
+            android:id="@+id/btn_admin"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            >
+            <TextView
+                android:id="@+id/tx_user"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_15sdp" />
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="@dimen/_10sdp"
+            android:id="@+id/btn_user"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            >
+            <TextView
+                android:id="@+id/tx_provider"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp" />
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

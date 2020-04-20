@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "622727248433",
+    "firebase_url": "https://love-music-cf868.firebaseio.com",
+    "project_id": "love-music-cf868",
+    "storage_bucket": "love-music-cf868.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622727248433:android:d9863a3685c1835b",
+        "android_client_info": {
+          "package_name": "com.greatlove.musicplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622727248433-7gc0gmg18u2vr051uci26445jbeoc79c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1TGtcQsIRh7qGZP8wLRC_p-mLM2ektr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622727248433-7gc0gmg18u2vr051uci26445jbeoc79c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
